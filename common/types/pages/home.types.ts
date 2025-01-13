@@ -1,5 +1,7 @@
 import { SanityRichtTextType } from "../root.types";
 import { Project } from "./post.types";
+import { Ansatte } from "./ansatte.types";
+
 
 
 export type Home = {
@@ -9,4 +11,6 @@ export type Home = {
     image: any;
     entry: SanityRichtTextType;
     project: Project[];
+    ansatte: Ansatte[];
+    
 }

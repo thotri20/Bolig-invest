@@ -1,7 +1,5 @@
 import { HOMEPAGE_QUERY } from "@/common/queries/pages/homepage.queries";
-import { POST_BY_SLUG } from "@/common/queries/pages/post.queries";
 import HomeView from "@/common/view/home-view";
-import PostView from "@/common/view/post-view";
 import { sanityFetch } from "@/sanity/lib/live";
 import { notFound } from "next/navigation";
 
