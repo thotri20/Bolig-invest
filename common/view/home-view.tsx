@@ -3,6 +3,7 @@ import { Home } from "../types/pages/home.types";
 import { urlFor } from "@/sanity/lib/image";
 import PortableText from "../atoms/content/PortableText";
 
+
 export default function HomeView({ data }: { data: Home }) {
   return (
     <div>
